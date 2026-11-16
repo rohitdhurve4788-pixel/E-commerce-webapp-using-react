@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
-// import Footer from './Footer'
 
 const categories = [
   { name: "Men's Clothing", icon: '👕', bg: 'bg-blue-100' },
@@ -39,7 +38,7 @@ const Home = () => {
   return (
     <div className='bg-white'>
       {/* ---------- HERO ---------- */}
-      <section className='relative overflow-hidden bg-gradient-to-br from-indigo-50 via-white to-purple-50'>
+      <section className='relative overflow-hidden  from-indigo-50 via-white to-purple-50'>
         <div className='absolute -top-24 -right-24 h-72 w-72 rounded-full bg-indigo-200/50 blur-3xl' />
         <div className='absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-purple-200/50 blur-3xl' />
 
