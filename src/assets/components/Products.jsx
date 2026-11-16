@@ -17,7 +17,7 @@ const Products = () => {
   useEffect(() => {
     api()
   }, [])
-  console.log(data);
+  
 
   if(loading) return <Loader className={'h-screen w-full flex items-center justify-center'}/>
 
